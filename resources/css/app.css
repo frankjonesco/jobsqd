@@ -8,4 +8,36 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Layout */
+
+    .container{
+        @apply !w-3/4;
+        @apply mx-auto;
+        @apply px-6;
+    }
+
+
+
+    /* Navbar */
+
+    nav#topNav{
+        @apply py-6;
+        @apply bg-white;
+    }
+
+    nav#topNav>.container{
+        @apply flex;
+        @apply justify-between;
+    }
+
+    nav#topNav>.container>ul{
+        @apply flex;
+        @apply gap-6;
+        @apply items-center;
+    }
 }
